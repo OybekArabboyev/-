@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    animation: animation 0.190s linear infinite alternate;
+    color: blue;
+}
+@keyframes animation {
+    from {
+        transform: scale(1.2,1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}        
+@keyframes animation {
+    from {
+        transform: translateX(10px);
+
+    }
+    to {
+        transform: translateX(-10px);
+    }
+}
+/* @keyframes animation {
+    from {
+        transform: rotate(15deg);
+
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+} */
